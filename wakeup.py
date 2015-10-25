@@ -8,7 +8,7 @@ import math
 duration = 30 * 60.0 # in minutes times 60.0 (float) seconds per hour
 stay_on = 15 * 60 # in minutes, time to stay on after full light
 
-os.system("gpio -g mode 18 pwm")
+os.system("gpio -g mode 18 pwm") # GPIO 18, pin 12
 
 for i in range(1025):
    print i
